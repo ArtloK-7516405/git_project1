@@ -33,7 +33,6 @@ class Example(QMainWindow):
         qp.setBrush(QColor(255, 255, 0))
         qp.drawEllipse(265 - size // 2, 250 - size // 2, size, size)
 
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Example()
